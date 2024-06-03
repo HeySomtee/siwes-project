@@ -1,0 +1,219 @@
+.upload-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.nav-body-warpper {
+    flex: 1;
+    align-items: center;
+    padding: 1% 13%;
+    /* background-color: #3c4fe0; */
+
+}
+
+
+.upload-box {
+    padding: 2%;
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 35vh;
+    border-radius: 10px;
+    place-content: center;
+
+
+}
+
+.upload-box>div h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.upload-box>div {
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    border: 1px dashed #3f3f3f2d;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.upload-box>div:hover {
+    background-color: #dfdede;
+}
+
+.upload-box2 {
+    padding: 3%;
+    flex: 1;
+    background-color: #fff;
+    width: 100%;
+    min-height: 65vh;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+
+.upload-box2>div {
+    width: 100%;
+}
+
+.upload-icon {
+    font-size: 3rem;
+    color: #3f3f3f85;
+}
+
+.grey-text {
+    color: #3f3f3fde;
+}
+
+.upload-box2>div>h3 {
+    font-weight: 600;
+}
+
+.caption-field {
+    width: 65%;
+    background-color: #f1f1f1;
+    height: 20%;
+    border-radius: 10px;
+
+}
+
+.caption-field>input {
+    background-color: #f1f1f1;
+    /* height: 100%; */
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+.select-div {
+    border: 1px solid #3f3f3f23;
+    padding: 5px;
+    width: 300px;
+}
+
+.upload-media-display {
+    width: 40%;
+    height: 300px;
+    /* background-color: ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-media-display img,
+.upload-media-display video {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.category-select {
+    width: 300px;
+}
+
+.post button {
+    width: 150px;
+    padding: 15px;
+
+}
+
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #f09f42 0, #f88808 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 38px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #d2d3df 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #bbbdcf 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #c7c9d8 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+@media screen and (max-width: 968px) {
+    .upload-box {
+        height: 20vh;
+    }
+
+    .caption-field {
+        width: 100%;
+    }
+
+    .upload-media-display {
+        height: 200px;
+    }
+
+    .upload-media-display img,
+    .upload-media-display video {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .nav-body-warpper {
+        padding: 10% 9%;
+    }
+
+    .upload-box2 {
+        min-height: 45vh;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .nav-body-warpper {
+        padding: 17% 1%;
+    }
+
+    .caption-field, .upload-box2, .upload-box{
+        border-radius: 0px;
+    }
+    
+
+}
